@@ -8,6 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from nltk.tokenize import sent_tokenize
 from nltk.corpus import stopwords
 from rank_bm25 import BM25Okapi
+from query_expansion import expand_with_synonyms
 
 
 def retrieve_texts_matching_to_query(query):
@@ -95,13 +96,15 @@ def n_best_chatgpt_arguments(texts, query, chatbot, n):
     return response
     
 
-def retrieve_arguments_with_jaccard(query, text):
+def retrieve_arguments_with_jaccard(queries, text):
     sentences = sent_tokenize(text)
     arguments = []
     for sentence in sentences:
-        jaccard_coefficient = jaccard(query.lower(), sentence)
-        if jaccard_coefficient > 0.1:
-            arguments.append({"text": sentence, "jaccard": jaccard_coefficient})
+        jaccard_sum = 0
+        for query in queries:
+            jaccard_sum += jaccard(query.lower(), sentence)
+        jaccard_mean = jaccard_sum / len(queries)
+        arguments.append({"text": sentence, "jaccard": jaccard_mean})
 
     top_10 = sorted(arguments, key=lambda k: k['jaccard'], reverse=True)[:5]
     top_10 = [argument['text'] for argument in top_10]
@@ -118,17 +121,22 @@ def retrieve_arguments_with_bm25(query, text):
     return bm25.get_top_n(tokenized_query, corpus, n=5)
 
    
-def retrieve_arguments_with_bert(query, text, model):
+def retrieve_arguments_with_bert(queries, text, model):
     sentences = sent_tokenize(text)
-    query_embedding = model.encode(query.lower())
     arguments = []
-
+        
     for sentence in sentences:
-        sentence_embedding = model.encode(sentence)
-        cos_sim_output = str(util.cos_sim(query_embedding, sentence_embedding)[0][0])
-        cosine_similarity = float(cos_sim_output[cos_sim_output.rfind('(')+1:cos_sim_output.rfind(')')].strip())
-        if cosine_similarity > 0.5:
-            arguments.append({"text": sentence, "score": cosine_similarity})
+        cos_sim_sum = 0
+        for query in queries:
+            query_embedding = model.encode(query.lower())
+            sentence_embedding = model.encode(sentence)
+            cos_sim_output = str(util.cos_sim(query_embedding, sentence_embedding)[0][0])
+            cosine_similarity = float(cos_sim_output[cos_sim_output.rfind('(')+1:cos_sim_output.rfind(')')].strip())
+            cos_sim_sum += cosine_similarity
+
+        cos_sim_mean = cos_sim_sum / len(queries)
+        arguments.append({"text": sentence, "score": cos_sim_mean})
+    
     
     top_10 = sorted(arguments, key=lambda k: k['score'], reverse=True)[:5]
     top_10 = [argument['text'] for argument in top_10]
@@ -140,7 +148,7 @@ def retrieve_arguments_with_tfidf(query, text):
     corpus = sent_tokenize(text)
     tfidf_vectorizer = TfidfVectorizer()
     tfidf_matrix = tfidf_vectorizer.fit_transform(corpus)
-    query_vector = tfidf_vectorizer.transform([query.lower()])
+    query_vector = tfidf_vectorizer.transform(query)
     cosine_similarities = cosine_similarity(query_vector, tfidf_matrix)
 
     most_similar_indices = cosine_similarities.argsort()[0][::-1]
@@ -172,14 +180,29 @@ def main():
     gpt_args = []
     i = 0
     for query in queries:
+        synonym_expanded_query = expand_with_synonyms(query)
+        original_query = [query]
+        query_expansion = [query, synonym_expanded_query]
+
         relevant_texts = retrieve_texts_matching_to_query(query)
         joined_texts = " ".join(map(str, relevant_texts))
 
-        jaccard_args = retrieve_arguments_with_jaccard(query, joined_texts)
+        jaccard_args = retrieve_arguments_with_jaccard(original_query, joined_texts)
+        #jaccard_args = retrieve_arguments_with_jaccard(query_expansion, joined_texts)
+        print(str(jaccard_args) + "\n\n")
+
         bm25_args = retrieve_arguments_with_bm25(query, joined_texts)
-        bert_args = retrieve_arguments_with_bert(query, joined_texts, model)
-        tfidf_args = retrieve_arguments_with_tfidf(query, joined_texts)
+        print(str(bm25_args) + "\n\n")
+
+        bert_args = retrieve_arguments_with_bert(original_query, joined_texts, model)
+        #bert_args = retrieve_arguments_with_bert(query_expansion, joined_texts, model)
+        print(str(bert_args) + "\n\n")
+
+        tfidf_args = retrieve_arguments_with_tfidf(query_expansion, joined_texts)
+        print(str(tfidf_args) + "\n\n")
+
         gpt_args = n_best_chatgpt_arguments(relevant_texts, query, chatbot, 5)
+        print(str(gpt_args) + "\n\n")
 
 
 if __name__ == "__main__":
