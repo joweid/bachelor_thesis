@@ -3,3 +3,5 @@ access_token.json
 arguments_with_positions.txt
 .venv/
 output.json
+__pychache__/
+discord_chatgpt_key.json

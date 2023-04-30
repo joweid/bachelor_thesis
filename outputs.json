@@ -1,0 +1,1124 @@
+{
+  "outputs": [
+    {
+      "query": "Should teachers get tenure?",
+      "query_expansion": [
+        "Should teachers get tenure?",
+        "What are the benefits of teacher tenure?",
+        "What are the drawbacks of teacher tenure?",
+        "What are the alternatives to teacher tenure?",
+        "How does teacher tenure affect student learning?",
+        "What is the process for a teacher to obtain tenure?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "Why should teachers be laid off because of seniority? (resolved_corefs: False)",
+            "Before tenure, teachers could be fired for any reason. (resolved_corefs: False)",
+            "(Rose Garrett, \"What Is Teacher Tenure? (resolved_corefs: False)",
+            "(Rose Garrett, \"What Is Teacher Tenure? (resolved_corefs: False)",
+            "[23] Tenure is not needed to recruit teachers. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "(Rose Garrett, \"What Is Teacher Tenure? (originated_from: What is the process for a teacher to obtain tenure?, resolved_corefs: False)",
+            "comRose Garrett, \"What Is Teacher Tenure? (originated_from: What is the process for a teacher to obtain tenure?, resolved_corefs: False)",
+            "Teacher tenure protects the academic freedom of teachers. (originated_from: What are the benefits of teacher tenure?, resolved_corefs: False)",
+            "Why should teachers be laid off because of seniority? (originated_from: Should teachers get tenure?, resolved_corefs: False)",
+            "Before tenure, teachers could be fired for any reason. (originated_from: Should teachers get tenure?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "I believe that teachers should cooperate for homework. (originated_from: Should teachers get tenure?, resolved_corefs: False)",
+            "Why should teachers be laid off because of seniority? (originated_from: Should teachers get tenure?, resolved_corefs: False)",
+            "Teachers should be paid on merit, not seniority and titles Better teachers should be paid more Teachers should be paid more; based on merit (originated_from: Should teachers get tenure?, resolved_corefs: False)",
+            "Teachers should be paid on merit, not seniority and titles Better teachers should be paid more Teachers should be paid more; based on merit (originated_from: Should teachers get tenure?, resolved_corefs: False), resolved_corefs: True)",
+            "I think teachers should have arms, why would we cut them off? (originated_from: Should teachers get tenure?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Here\u2019s why a school board would be unwilling to fire a teacher haphazardly: First, the process of searching and finding a teacher is a lengthy and expense process. (originated_from: What is the process for a teacher to obtain tenure?, resolved_corefs: False)",
+            "Other benefits of students are mentioned in previous round. (originated_from: What are the benefits of teacher tenure?, resolved_corefs: False)",
+            "But is this what it's come to for you? (originated_from: What is the process for a teacher to obtain tenure?, resolved_corefs: False)",
+            "Once the teacher is hired, one has to pay for teacher orientation, and file paper work for the new employee. (originated_from: What is the process for a teacher to obtain tenure?, resolved_corefs: False)",
+            "So as long as the teacher has a decent level of competency, it is much better for the school to keep the teacher then to fire the teacher and risk a new teacher. (originated_from: What is the process for a teacher to obtain tenure?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "In this debate, I will argue that \u2018there should be a teacher tenure.\u2019 Whether this tenure is reformed, or reduced to only applicable to some teachers, does not matter as long as I am able to prove that \u2018teacher tenure\u2019 should, in some form, exist. (resolved_corefs: False)",
+            "Once teachers recieve tenure - teachers work less hard because teachers feel as if teachers are invincible. (resolved_corefs: True)",
+            "[4]\" In conclusion, tenure is a necessary provision for good teachers and promotes a stronger school culture, thus increasing academic achievement, not hindering it. (resolved_corefs: False)",
+            "Tenure removes incentives for teachers to put in more than the minimum effort and to focus on improving teachers teaching. (resolved_corefs: True)",
+            "org), (Scott McLeod, JD, PhD, \"Does Teacher Tenure Have a Future? (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Here are some facts against Teacher Tenure: Teacher tenure creates complacency because teachers know teachers are unlikely to lose teachers jobs. (originated_from: What are the drawbacks of teacher tenure?, resolved_corefs: True)",
+            "Tenure removes incentives for teachers to put in more than the minimum effort and to focus on improving teachers teaching. (originated_from: What are the benefits of teacher tenure?, resolved_corefs: True)",
+            "Teacher Tenure is not benefitial for anyone except teachers - anyone except teachers get unfair advantages in MANY ways, some I have just listed. (originated_from: What are the benefits of teacher tenure?, resolved_corefs: True)",
+            "[2]\" In other words, tenure gives teachers a safeguard to be able to be more involved with the decisions being made at teachers school, as opposed to being complacent and accepting any and all changes. (originated_from: What are the benefits of teacher tenure?, resolved_corefs: True)",
+            "In this debate, I will argue that \u2018there should be a teacher tenure.\u2019 Whether this tenure is reformed, or reduced to only applicable to some teachers, does not matter as long as I am able to prove that \u2018teacher tenure\u2019 should, in some form, exist. (originated_from: Should teachers get tenure?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "- What'd you get? (resolved_corefs: False)",
+            "Refer back to my argument for my reason 1: \"Reason 1 - Teacher tenure creates complacency because teachers know teachers are unlikely to lose teachers jobs: If teachers know that teachers reached the period where teachers get special defence from most accusations - it would send the message to teachers that teachers can then do whatever teachers want to do in the classroom and really slack with teachers teaching duties. \" (resolved_corefs: True)",
+            "Teachers should be paid on merit, not seniority and titles Better teachers should be paid more Teachers should be paid more; based on merit (resolved_corefs: False)",
+            "Once teachers recieve tenure - teachers work less hard because teachers feel as if teachers are invincible. (resolved_corefs: True)",
+            "In this debate, I will argue that \u2018there should be a teacher tenure.\u2019 Whether this tenure is reformed, or reduced to only applicable to some teachers, does not matter as long as I am able to prove that \u2018teacher tenure\u2019 should, in some form, exist. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "- What are you? (originated_from: What are the drawbacks of teacher tenure?, resolved_corefs: False)",
+            "- What? (originated_from: What are the drawbacks of teacher tenure?, resolved_corefs: False)",
+            "What? (originated_from: What are the drawbacks of teacher tenure?, resolved_corefs: False)",
+            "- What'd you get? (originated_from: Should teachers get tenure?, resolved_corefs: False)",
+            "Refer back to my argument for my reason 1: \"Reason 1 - Teacher tenure creates complacency because teachers know teachers are unlikely to lose teachers jobs: If teachers know that teachers reached the period where teachers get special defence from most accusations - it would send the message to teachers that teachers can then do whatever teachers want to do in the classroom and really slack with teachers teaching duties. \" (originated_from: Should teachers get tenure?, resolved_corefs: True)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Is vaping with e-cigarettes safe?",
+      "query_expansion": [
+        "Is vaping with e-cigarettes safe?",
+        "What are the health risks of vaping?",
+        "Is vaping less harmful than smoking?",
+        "What chemicals are in e-cigarette vapor?",
+        "Can vaping lead to addiction?",
+        "What is the long-term impact of vaping on health?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "People quit smoking with E-cigs. (resolved_corefs: False)",
+            "But ready or not, the era of e-cigarettes is here. (resolved_corefs: False)",
+            "\"But if that's not possible, I think that's not possible'd be a lot better off with e-cigarettes. (resolved_corefs: True)",
+            "Cigarettes are made from tobacco. (resolved_corefs: False)",
+            "Siegel compares replacing tobacco with e-cigarettes to heroin users switching to the painkiller methadone. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "People quit smoking with E-cigs. (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: False)",
+            "\"E-cigarettes may be less harmful than cigarettes,\" Drummond says. (originated_from: Is vaping less harmful than smoking?, resolved_corefs: False)",
+            "The risks of smoking compared to those of vaping are like the risks of walking on the highway compared to the risks of walking on the sidewalk. (originated_from: What are the health risks of vaping?, resolved_corefs: False)",
+            "Personal right Con ignores my arguments on second hand smoke and the fact that marijuana is less harmful than smoking. (originated_from: Is vaping less harmful than smoking?, resolved_corefs: False)",
+            "But ready or not, the era of e-cigarettes is here. (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "But ready or not, the era of e-cigarettes is here. (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: False)",
+            "Siegel compares replacing tobacco with e-cigarettes to heroin users switching to the painkiller methadone. (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: False)",
+            "The biggest danger from tobacco is the smoke, and e-cigarettes don't burn. (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: False)",
+            "Are you now saying you want smoking and vaping to only be illegal is another person is nearby? (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: True)",
+            "- What is wrong with you?! (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "\"E-cigarettes may be less harmful than cigarettes,\" Drummond says. (originated_from: Is vaping less harmful than smoking?, resolved_corefs: False)",
+            "The risks of smoking compared to those of vaping are like the risks of walking on the highway compared to the risks of walking on the sidewalk. (originated_from: What are the health risks of vaping?, resolved_corefs: False)",
+            "It can affect your blood pressure and blood sugar, which can lead to heart-attacks, which can lead to death. (originated_from: Can vaping lead to addiction?, resolved_corefs: False)",
+            "Thank you, Con.REBUTTALS:\"It is a common fact that Marijuana has less harmful effects than alcohol, cigarettes, and guns. (originated_from: Is vaping less harmful than smoking?, resolved_corefs: False)",
+            "In fact, Marijuana causes even more health risks to the lungs than tobacco. (originated_from: What are the health risks of vaping?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "So far, evidence suggests that e-cigarettes may be safer than regular cigarettes. (resolved_corefs: False)",
+            "E cigs are not a safer alternative to cigarettes because cigarettes are just as addictive. (resolved_corefs: True)",
+            "Juul for example is a good way to start vaping, A teen hobby that adds a sense of smoking cigarettes whilst smoking cigarettes does contain harmful chemicals similar to cigarettes; \"Traditional cigarettes contain a laundry list of chemicals that are proven harmful, And e-cigarettes have some of these same chemicals. \" (resolved_corefs: True)",
+            "\"E-cigarettes may be less harmful than cigarettes,\" Drummond says. (resolved_corefs: False)",
+            "This is to say that electronic cigarettes are safer to smoke than traditional cigarettes. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "So far, evidence suggests that e-cigarettes may be safer than regular cigarettes. (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: False)",
+            "To address your claims of the dangers of vaping: There is a difference between a substance possibly having side effects in unhealthy people and a substance definitely causing cancer. (originated_from: What are the health risks of vaping?, resolved_corefs: False)",
+            "This is the ingredient that produces the smoke-like vapor when the e-cigarette is exhaled. (originated_from: What chemicals are in e-cigarette vapor?, resolved_corefs: False)",
+            "E cigs are not a safer alternative to cigarettes because cigarettes are just as addictive. (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: True)",
+            "Juul for example is a good way to start vaping, A teen hobby that adds a sense of smoking cigarettes whilst smoking cigarettes does contain harmful chemicals similar to cigarettes; \"Traditional cigarettes contain a laundry list of chemicals that are proven harmful, And e-cigarettes have some of these same chemicals. \" (originated_from: Is vaping with e-cigarettes safe?, resolved_corefs: True)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "What if another person is also smoking or vaping? (resolved_corefs: True)",
+            "Juul for example is a good way to start vaping, A teen hobby that adds a sense of smoking cigarettes whilst smoking cigarettes does contain harmful chemicals similar to cigarettes; \"Traditional cigarettes contain a laundry list of chemicals that are proven harmful, And e-cigarettes have some of these same chemicals. \" (resolved_corefs: True)",
+            "- What is wrong with you?! (resolved_corefs: False)",
+            "Org/vaping-safer-smoking-cigarettes-2/ Resolved: That the government should ban smoking in public places. (resolved_corefs: False)",
+            "Are you now saying you want smoking and vaping to only be illegal is another person is nearby? (resolved_corefs: True)"
+          ],
+          "expanded": [
+            "Vapor is just vapor. (originated_from: What chemicals are in e-cigarette vapor?, resolved_corefs: False)",
+            "The risks of smoking compared to those of vaping are like the risks of walking on the highway compared to the risks of walking on the sidewalk. (originated_from: What are the health risks of vaping?, resolved_corefs: False)",
+            "B) Marijuana also causes several detrimental medical effects to one's health (both short-term and long-term). (originated_from: What is the long-term impact of vaping on health?, resolved_corefs: False)",
+            "It can affect your blood pressure and blood sugar, which can lead to heart-attacks, which can lead to death. (originated_from: Can vaping lead to addiction?, resolved_corefs: False)",
+            "Personal right Con ignores my arguments on second hand smoke and the fact that marijuana is less harmful than smoking. (originated_from: Is vaping less harmful than smoking?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should insider trading be allowed?",
+      "query_expansion": [
+        "Should insider trading be allowed?",
+        "What is insider trading?",
+        "What are the consequences of insider trading?",
+        "What is the current legal status of insider trading?",
+        "Is insider trading ever ethical?",
+        "What are some arguments for and against allowing insider trading?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "I argue that abortion should be allowed. (resolved_corefs: False)",
+            "So if insider trading hurts that ability, then insider trading's bad for the economy. (resolved_corefs: True)",
+            "Insider trading causes some people to profit less, but others, the insider traders to profit more. (resolved_corefs: False)",
+            "As evidence that insider trading hurts capital accumulation, Pro provides a speech by the SEC. (resolved_corefs: False)",
+            "1) My opponent claims that Jewish insider trading is a normalcy and happens on a regular basis. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "What is it? (originated_from: What is insider trading?, resolved_corefs: False)",
+            "I argue that abortion should be allowed. (originated_from: Should insider trading be allowed?, resolved_corefs: False)",
+            "So if insider trading hurts that ability, then insider trading's bad for the economy. (originated_from: What are the consequences of insider trading?, resolved_corefs: True)",
+            "What is this? (originated_from: What is insider trading?, resolved_corefs: False)",
+            "What is that? (originated_from: What is insider trading?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "So if insider trading hurts that ability, then insider trading's bad for the economy. (originated_from: Should insider trading be allowed?, resolved_corefs: True)",
+            "I argue that abortion should be allowed. (originated_from: Should insider trading be allowed?, resolved_corefs: False)",
+            "As evidence that insider trading hurts capital accumulation, Pro provides a speech by the SEC. (originated_from: Should insider trading be allowed?, resolved_corefs: False)",
+            "Insider trading causes some people to profit less, but others, the insider traders to profit more. (originated_from: Should insider trading be allowed?, resolved_corefs: False)",
+            "Even if insider trading is widespread, then people won't invest, and the economy will suffer would buy and sell, insider trading is widespread, then people won't invest, and the economy will suffer WON'T buy and sell if there is insider trading, and the economy goes down. (originated_from: Should insider trading be allowed?, resolved_corefs: True)"
+          ],
+          "expanded": [
+            "About 75% of current R&D spending is on copycats of existing drugs. (originated_from: What is the current legal status of insider trading?, resolved_corefs: False)",
+            "So if insider trading hurts that ability, then insider trading's bad for the economy. (originated_from: Should insider trading be allowed?, resolved_corefs: True)",
+            "But some bees are smoking. (originated_from: What are some arguments for and against allowing insider trading?, resolved_corefs: False)",
+            "It's just a status symbol. (originated_from: What is the current legal status of insider trading?, resolved_corefs: False)",
+            "I argue that abortion should be allowed. (originated_from: Should insider trading be allowed?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "Although the set of rules surrounding insider trading is beyond the scope of this debate, insider trading generally prohibits people who have non-public information from using that information to buy and sell stock (usually of a company that they work for or are affiliated with). (resolved_corefs: True)",
+            "So if insider trading hurts that ability, then insider trading's bad for the economy. (resolved_corefs: True)",
+            "2. Insider Trading Federal laws prohibit the use of \"insider information\" to make decisions about buying and selling shares on a market exchange. (resolved_corefs: False)",
+            "An essential part of our regulation of the securities market is the vigorous enforcement of our laws against insider trading\u2026\" [4]. (resolved_corefs: False)",
+            "I said that if insider trading is widespread, then people won't invest, and the economy will suffer. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Although the set of rules surrounding insider trading is beyond the scope of this debate, insider trading generally prohibits people who have non-public information from using that information to buy and sell stock (usually of a company that they work for or are affiliated with). (originated_from: Should insider trading be allowed?, resolved_corefs: True)",
+            "[4]2. Insider TradingHaving information that others don\u2019t have and acting on it is how all money is made in the stock market. (originated_from: What is insider trading?, resolved_corefs: False)",
+            "Insider trading causes some people to profit less, but others, the insider traders to profit more. (originated_from: What is insider trading?, resolved_corefs: False)",
+            "So if insider trading hurts that ability, then insider trading's bad for the economy. (originated_from: Should insider trading be allowed?, resolved_corefs: True)",
+            "2. Insider Trading Federal laws prohibit the use of \"insider information\" to make decisions about buying and selling shares on a market exchange. (originated_from: Should insider trading be allowed?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "I argue that abortion should be allowed. (resolved_corefs: False)",
+            "I still think it should be allowed.. letting the piercings kill them shouldn't be allowed... but otherwise it's ok. (resolved_corefs: False)",
+            "So if insider trading hurts that ability, then insider trading's bad for the economy. (resolved_corefs: True)",
+            "I think we should be allowed but in middle/high school we would have to take special classes to learn. (resolved_corefs: False)",
+            "Insider trading causes some people to profit less, but others, the insider traders to profit more. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "So if insider trading hurts that ability, then insider trading's bad for the economy. (originated_from: What is insider trading?, resolved_corefs: True)",
+            "I argue that abortion should be allowed. (originated_from: Should insider trading be allowed?, resolved_corefs: False)",
+            "I still think it should be allowed.. letting the piercings kill them shouldn't be allowed... but otherwise it's ok. (originated_from: Should insider trading be allowed?, resolved_corefs: False)",
+            "What's your status? (originated_from: What is the current legal status of insider trading?, resolved_corefs: False)",
+            "What is it? (originated_from: What is insider trading?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should corporal punishment be used in schools?",
+      "query_expansion": [
+        "Should corporal punishment be used in schools?",
+        "What is corporal punishment?",
+        "What are the effects of corporal punishment on children?",
+        "What are the alternatives to corporal punishment in schools?",
+        "Is corporal punishment legal in schools?",
+        "What are the cultural and historical perspectives on corporal punishment?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            ":D Should corporal punishment be be banned or kept in schools, daycares, etc? (resolved_corefs: False)",
+            "Corporal punishment is a common feature in schools. (resolved_corefs: False)",
+            "Corporal punishment is a common feature in schools. (resolved_corefs: False)",
+            "In India Corporal punishment has become a common feature in schools. (resolved_corefs: False)",
+            "In India Corporal punishment has become a common feature in schools. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Parental Corporal Punishment1. (originated_from: What is corporal punishment?, resolved_corefs: False)",
+            ":D Should corporal punishment be be banned or kept in schools, daycares, etc? (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "Corporal punishment is a common feature in schools. (originated_from: Is corporal punishment legal in schools?, resolved_corefs: False)",
+            "I think that we should use this corporal punishment. (originated_from: What is corporal punishment?, resolved_corefs: False)",
+            "In India Corporal punishment has become a common feature in schools. (originated_from: Is corporal punishment legal in schools?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "Therefore, corporal punishment should be brought back to schools in the form of running. (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "Also, corporal punishment wasn't being used as a last resort. (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "Corporal punishment is still be used today in certain countries while in others it is not. (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            ":D Should corporal punishment be be banned or kept in schools, daycares, etc? (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "Finally, there is a specific way the benefits of corporal punishment should be assess. (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Unfortunately, the ban on corporal punishment in schools has not been followed up by measures that offer alternatives to the vice. (originated_from: What are the alternatives to corporal punishment in schools?, resolved_corefs: False)",
+            "Therefore, corporal punishment should be brought back to schools in the form of running. (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "Also, corporal punishment wasn't being used as a last resort. (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "Corporal punishment is still be used today in certain countries while in others it is not. (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "It should be noted that It effects on survivors are damaging. (originated_from: What are the effects of corporal punishment on children?, resolved_corefs: True)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "This article shows the ineffectiveness of corporal punishment in schools. (resolved_corefs: False)",
+            ":D Should corporal punishment be be banned or kept in schools, daycares, etc? (resolved_corefs: False)",
+            "Corporal punishment should be an option available to teachers \u2013 but not the only option and not one to be used all the time. (resolved_corefs: False)",
+            "Corporal punishment is a common feature in schools. (resolved_corefs: False)",
+            "Corporal punishment is a common feature in schools. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Corporal punishment means physical torture. (originated_from: What is corporal punishment?, resolved_corefs: False)",
+            "This article shows the ineffectiveness of corporal punishment in schools. (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "The term, 'Corporal punishment' means 'physical punishment'. (originated_from: What is corporal punishment?, resolved_corefs: False)",
+            ":D Should corporal punishment be be banned or kept in schools, daycares, etc? (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "Corporal punishment is the hitting of a person with a hand or an object such as a cane or belt. (originated_from: What is corporal punishment?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            ":D Should corporal punishment be be banned or kept in schools, daycares, etc? (resolved_corefs: False)",
+            "Therefore, corporal punishment should be brought back to schools in the form of running. (resolved_corefs: False)",
+            "Corporal punishment is a common feature in schools. (resolved_corefs: False)",
+            "Corporal punishment is a common feature in schools. (resolved_corefs: False)",
+            "Corporal punishment is still be used today in certain countries while in others it is not. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "What is it? (originated_from: What is corporal punishment?, resolved_corefs: False)",
+            "- What is that?! (originated_from: What is corporal punishment?, resolved_corefs: False)",
+            "What is that? (originated_from: What is corporal punishment?, resolved_corefs: False)",
+            ":D Should corporal punishment be be banned or kept in schools, daycares, etc? (originated_from: Should corporal punishment be used in schools?, resolved_corefs: False)",
+            "Corporal punishment is a common feature in schools. (originated_from: Is corporal punishment legal in schools?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should social security be privatized?",
+      "query_expansion": [
+        "Should social security be privatized?",
+        "What is social security?",
+        "What are the pros and cons of privatizing social security?",
+        "What are the potential consequences of privatizing social security?",
+        "What are the alternatives to privatizing social security?",
+        "How does social security work in other countries?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "Thus Social Security should be privatized. (resolved_corefs: False)",
+            "\"Privatize Social Security? (resolved_corefs: False)",
+            "\"Privatizing Social Security? (resolved_corefs: True)",
+            "\"Privatizing Social Security? (resolved_corefs: True)",
+            "\"Privatizing Social Security? (resolved_corefs: True)"
+          ],
+          "expanded": [
+            "Thus Social Security should be privatized. (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "\"Social Security? (originated_from: What is social security?, resolved_corefs: True)",
+            "\"Privatize Social Security? (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "\"Privatizing Social Security? (originated_from: What are the alternatives to privatizing social security?, resolved_corefs: True)",
+            "\"Privatizing social security the right way\". (originated_from: What are the alternatives to privatizing social security?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "i'm just arguing that social security social security be exempt. (originated_from: Should social security be privatized?, resolved_corefs: True)",
+            "Social security fits this description exactly; therefore social security must be abolished. (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "i'm just arguing that social security shouldn't be exempt. (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "\"Privatizing social security the right way\". (originated_from: Should social security be privatized?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "i'm just arguing that social security social security be exempt. (originated_from: Should social security be privatized?, resolved_corefs: True)",
+            "And the businesses offering social security would not give social security up because one, social security does not waste the businesses offering social security money, and two, makes sure the businesses offering social security employees live a good life (yes, businesses care about businesses employees). (originated_from: How does social security work in other countries?, resolved_corefs: True)",
+            "Social security fits this description exactly; therefore social security must be abolished. (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "i'm just arguing that social security shouldn't be exempt. (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "\"Privatizing social security the right way\". (originated_from: Should social security be privatized?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "Thus Social Security should be privatized. (resolved_corefs: False)",
+            "\"Privatizing Social Security? (resolved_corefs: True)",
+            "\"Privatizing Social Security? (resolved_corefs: True)",
+            "\"Privatizing Social Security? (resolved_corefs: True)",
+            "\"Privatize Social Security? (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Thus Social Security should be privatized. (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "\"Privatizing Social Security? (originated_from: Should social security be privatized?, resolved_corefs: True)",
+            "\"Privatize Social Security? (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "\"Privatizing social security the right way\". (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "Privatizing social security would have a big impact on those who want to remain in the current system through falling tax revenues. (originated_from: What are the potential consequences of privatizing social security?, resolved_corefs: True)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "Thus Social Security should be privatized. (resolved_corefs: False)",
+            "Point 4: I am not saying you should end Social Security, I said that Social Security should be privatized (for businesses), and even then, Social Security should be the employee's choice. (resolved_corefs: True)",
+            "\"Social Security? (resolved_corefs: True)",
+            "i'm just arguing that social security social security be exempt. (resolved_corefs: True)",
+            "Issue Republican Party Democratic Party Libertarian Party Social Security Social security should be privatized (not to be confused with private savings accounts, but rather, private investments). (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Thus Social Security should be privatized. (originated_from: Should social security be privatized?, resolved_corefs: False)",
+            "\"Social Security? (originated_from: What is social security?, resolved_corefs: True)",
+            "Point 4: I am not saying you should end Social Security, I said that Social Security should be privatized (for businesses), and even then, Social Security should be the employee's choice. (originated_from: Should social security be privatized?, resolved_corefs: True)",
+            "\"Privatizing Social Security? (originated_from: What are the alternatives to privatizing social security?, resolved_corefs: True)",
+            "- What is that?! (originated_from: What is social security?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Is a college education worth it?",
+      "query_expansion": [
+        "Is a college education worth it?",
+        "What are the benefits of a college education?",
+        "What are the drawbacks of a college education?",
+        "What is the return on investment of a college education?",
+        "What are the alternatives to a traditional college education?",
+        "How does the value of a college education vary by field of study?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "The value of a college education is very important. (resolved_corefs: False)",
+            "College education is a waste of money and time. (resolved_corefs: False)",
+            "Necessity of a College Education Nowadays more than ever, a college education is a necessity. (resolved_corefs: False)",
+            "So, in the long-run, a college education will earn you much more. (resolved_corefs: False)",
+            "Or education? (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "The value of a college education is very important. (originated_from: How does the value of a college education vary by field of study?, resolved_corefs: False)",
+            "College education is a waste of money and time. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "Necessity of a College Education Nowadays more than ever, a college education is a necessity. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "So, in the long-run, a college education will earn you much more. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "All in all, the way colleges run is that they provide education in return for money. (originated_from: What is the return on investment of a college education?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "If a fool is elected, then it really isn't ethical, is it? (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "This debate will be over whether or not college education is worth the time and expense. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "I will take the position as pro, arguing that college is worth it. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "The electoral college is an onerous anachronism from an undemocratic and backwards era > Due to recent events in our debates I have come to see that even though nationwide high schools now encourage students to strive for four-year universities and colleges I have come to ask myself if those four long years are really worth it? (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "I accept, and will be arguing that college is worth it for some people. (originated_from: Is a college education worth it?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Additionally one field of practise is not enough to validate the value of higher education for the entire pool of millennials as a whole. (originated_from: How does the value of a college education vary by field of study?, resolved_corefs: False)",
+            "The value of a college education is very important. (originated_from: How does the value of a college education vary by field of study?, resolved_corefs: False)",
+            "It is also important to remember that this expenditure would be investment rather than another government program with no return in sight. (originated_from: What is the return on investment of a college education?, resolved_corefs: False)",
+            "Or education? (originated_from: What are the benefits of a college education?, resolved_corefs: False)",
+            "Also, if college education is truly outdated for millennials, why are there more millennials than any other generation going to colllege or who have a college education? (originated_from: What are the alternatives to a traditional college education?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "Yes you do pay a lot of money but about or more then half of the college graduates believe that going to college was very much worth it. (resolved_corefs: False)",
+            "I have done my own research for this topic and what i found is that According to Money college planning \"half of graduates say the education was worth the cost. (resolved_corefs: False)",
+            "So, in the long-run, a college education will earn you much more. (resolved_corefs: False)",
+            "I accept, and will be arguing that college is worth it for some people. (resolved_corefs: False)",
+            "This debate will be over whether or not college education is worth the time and expense. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Yes you do pay a lot of money but about or more then half of the college graduates believe that going to college was very much worth it. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "The value of a college education is very important. (originated_from: How does the value of a college education vary by field of study?, resolved_corefs: False)",
+            "I have done my own research for this topic and what i found is that According to Money college planning \"half of graduates say the education was worth the cost. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "So, in the long-run, a college education will earn you much more. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "I accept, and will be arguing that college is worth it for some people. (originated_from: Is a college education worth it?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "I accept, and will be arguing that college is worth it for some people. (resolved_corefs: False)",
+            "I will take the position as pro, arguing that college is worth it. (resolved_corefs: False)",
+            "CON RE: if college is not worth college, why are more millennials going to college than any other generation? (resolved_corefs: True)",
+            "This debate will be over whether or not college education is worth the time and expense. (resolved_corefs: False)",
+            "Whatever is worth having is worth earning, worth working for, sacrificing for; do we not appreciate what we have worked hard for more than what is simply \"given\" to we (while at the same time being taken from others)?\" (resolved_corefs: True)"
+          ],
+          "expanded": [
+            "(2) RE: there exists alternative pathways to college education - Con argues some fields do not have alternatives, and alternatives are not needed if college education becomes tax funded. (originated_from: What are the alternatives to a traditional college education?, resolved_corefs: False)",
+            "I accept, and will be arguing that college is worth it for some people. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "The value of a college education is very important. (originated_from: How does the value of a college education vary by field of study?, resolved_corefs: False)",
+            "I will take the position as pro, arguing that college is worth it. (originated_from: Is a college education worth it?, resolved_corefs: False)",
+            "CON RE: if college is not worth college, why are more millennials going to college than any other generation? (originated_from: Is a college education worth it?, resolved_corefs: True)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should felons who have completed their sentence be allowed to vote?",
+      "query_expansion": [
+        "Should felons who have completed their sentence be allowed to vote?",
+        "What are the voting rights of felons in different states?",
+        "What is the history of felon disenfranchisement in the United States?",
+        "What are the arguments for and against restoring voting rights to felons?",
+        "What is the impact of felony disenfranchisement on democracy?",
+        "What are the alternatives to restoring voting rights to felons who have completed their sentence?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "Then they will be allowed to vote. (resolved_corefs: False)",
+            "This included 1.4 million African-American men, more than 676,000 women, and 2.1 million ex-offenders who have completed 1.4 million African-American men, more than 676,000 women, and 2.1 million ex-offenders who have completed their sentences sentences. (resolved_corefs: True)",
+            "Florida is one of nine states that deny the right to vote to all convicted felons who have served their time. (resolved_corefs: False)",
+            "If felons in Florida were allowed to vote in the 2000 presidential election, felons in Florida were allowed to vote in the 2000 presidential election would have affected the result. (resolved_corefs: True)",
+            "An ex-felon is somebody who has completed their sentence, and a felon, as stated in the resolution (2), is somebody currently serving their sentence. (resolved_corefs: True)"
+          ],
+          "expanded": [
+            "B: \"In many states, felony disenfranchisement laws are still on the books. (originated_from: What is the impact of felony disenfranchisement on democracy?, resolved_corefs: False)",
+            "\u201c(1) \u201cState approaches to felon disenfranchisement vary tremendously. (originated_from: What is the history of felon disenfranchisement in the United States?, resolved_corefs: False)",
+            "P2: Felon disenfranchisement encourages racial discrimination. (originated_from: What is the history of felon disenfranchisement in the United States?, resolved_corefs: False)",
+            "Felon Voting laws in the United States are outdated. (originated_from: What is the history of felon disenfranchisement in the United States?, resolved_corefs: False)",
+            "Then they will be allowed to vote. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "Why, then, should criminals be allowed to maintain criminals political rights and the freedom to vote? (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: True)",
+            "This included 1.4 million African-American men, more than 676,000 women, and 2.1 million ex-offenders who have completed 1.4 million African-American men, more than 676,000 women, and 2.1 million ex-offenders who have completed their sentences sentences. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: True)",
+            "By serving their sentence and fulfilling their civic duties, felons gain felons full rights. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: True)",
+            "An ex-felon is somebody who has completed their sentence, and a felon, as stated in the resolution (2), is somebody currently serving their sentence. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: True)"
+          ],
+          "expanded": [
+            "This ensures that only those criminals who have met only those criminals who have met their obligations to their victims and who have enough civic pride to apply for renewed voting rights obligations to only those criminals who have met their obligations to their victims and who have enough civic pride to apply for renewed voting rights victims and who have enough civic pride to apply for renewed voting rights can play a role in selecting our community, state and national leaders.\" (originated_from: What are the alternatives to restoring voting rights to felons who have completed their sentence?, resolved_corefs: True)",
+            "B: \"In many states, felony disenfranchisement laws are still on the books. (originated_from: What is the impact of felony disenfranchisement on democracy?, resolved_corefs: False)",
+            "I: \"Despite its initial attractiveness, the use of social contract theory to defend felon disenfranchisement is in fact specious. (originated_from: What is the history of felon disenfranchisement in the United States?, resolved_corefs: False)",
+            "Why, then, should criminals be allowed to maintain criminals political rights and the freedom to vote? (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: True)",
+            "This included 1.4 million African-American men, more than 676,000 women, and 2.1 million ex-offenders who have completed 1.4 million African-American men, more than 676,000 women, and 2.1 million ex-offenders who have completed their sentences sentences. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: True)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "Felons should be allowed to vote People need to learn there are consequences to People actions, and punishment is involved. (resolved_corefs: True)",
+            "Thus Felons should retain the right to vote. (resolved_corefs: False)",
+            "I am arguing that so called Felons should retain the right to vote in spite of being felons. (resolved_corefs: False)",
+            "Felons should have voting rights in the modern U.S. A: Clarification/Context So as to be as clear as possible. (resolved_corefs: False)",
+            "I don't contend that felons \"should have the right to vote in every circumstance and situation\", and it is both unreasonable and unrealistic to take an absolute position on an issue that will have varying degrees of circumstance, ie. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "What voting restrictions, if any, should be placed on felons? (originated_from: What are the voting rights of felons in different states?, resolved_corefs: False)",
+            "Felons should be allowed to vote People need to learn there are consequences to People actions, and punishment is involved. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: True)",
+            "I am arguing that so called Felons should retain the right to vote in spite of being felons. (originated_from: What are the arguments for and against restoring voting rights to felons?, resolved_corefs: False)",
+            "Thus Felons should retain the right to vote. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: False)",
+            "Felons should have voting rights in the modern U.S. A: Clarification/Context So as to be as clear as possible. (originated_from: What are the voting rights of felons in different states?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "An ex-felon is somebody who has completed their sentence, and a felon, as stated in the resolution (2), is somebody currently serving their sentence. (resolved_corefs: True)",
+            "The United Nations defines an ex-felon as somebody who has completed their sentence, and a felon, as stated in the resolution, as somebody currently serving their sentence. (resolved_corefs: False)",
+            "Then they will be allowed to vote. (resolved_corefs: False)",
+            "My claim: Felons should not be able to vote. (resolved_corefs: False)",
+            "I believe that any citizen who wants to vote should be allowed to, including children who are old enough to read a candidate's name. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Felon Voting laws in the United States are outdated. (originated_from: What is the history of felon disenfranchisement in the United States?, resolved_corefs: False)",
+            "An ex-felon is somebody who has completed their sentence, and a felon, as stated in the resolution (2), is somebody currently serving their sentence. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: True)",
+            "Arguments are continued. (originated_from: What are the arguments for and against restoring voting rights to felons?, resolved_corefs: False)",
+            "The United Nations defines an ex-felon as somebody who has completed their sentence, and a felon, as stated in the resolution, as somebody currently serving their sentence. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: False)",
+            "Then they will be allowed to vote. (originated_from: Should felons who have completed their sentence be allowed to vote?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should abortion be legal?",
+      "query_expansion": [
+        "Should abortion be legal?",
+        "What is abortion?",
+        "What are the different types of abortion procedures?",
+        "What are the arguments for and against legalizing abortion?",
+        "What is the current legal status of abortion?",
+        "What are the cultural and religious perspectives on abortion?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "Therefore, abortion should be legal. (resolved_corefs: False)",
+            "Thank you ~ This debate is \"should abortion be legal?\" (resolved_corefs: False)",
+            "Therefore, abortion should not be legal. (resolved_corefs: False)",
+            "This debate will be a classic abortion debate: should abortion be legal? (resolved_corefs: False)",
+            "Abortion should be legal but discouraged. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Therefore, abortion should be legal. (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Thank you ~ This debate is \"should abortion be legal?\" (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Therefore, abortion should not be legal. (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "This debate will be a classic abortion debate: should abortion be legal? (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Abortion should be legal but discouraged. (originated_from: Should abortion be legal?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "This debate will be a classic abortion debate: should abortion be legal? (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Why then is abortion legal? (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Therefore, abortion should be legal. (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "I believe abortion should be illegal! (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Therefore, abortion should not be legal. (originated_from: Should abortion be legal?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "This debate will be a classic abortion debate: should abortion be legal? (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Why then is abortion legal? (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "The anti-abortion position is usually based on religious beliefs and threatens the vital separation of church and state. (originated_from: What are the cultural and religious perspectives on abortion?, resolved_corefs: False)",
+            "Therefore, abortion should be legal. (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "+++ That's a different debate. (originated_from: What are the different types of abortion procedures?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "Therefore, abortion should be legal. (resolved_corefs: False)",
+            "This debate will be a classic abortion debate: should abortion be legal? (resolved_corefs: False)",
+            "Abortion should be legal but discouraged. (resolved_corefs: False)",
+            "Thank you ~ This debate is \"should abortion be legal?\" (resolved_corefs: False)",
+            "I believe abortion should be illegal! (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Therefore, abortion should be legal. (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "This debate will be a classic abortion debate: should abortion be legal? (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Abortion should be legal but discouraged. (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "Thank you ~ This debate is \"should abortion be legal?\" (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "I believe abortion should be illegal! (originated_from: Should abortion be legal?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "Therefore, abortion should be legal. (resolved_corefs: False)",
+            "My case is against \"abortion, \"abortion should not be illegal, \"abortion should be legal. (resolved_corefs: True)",
+            "Therefore, abortion should not be legal. (resolved_corefs: False)",
+            "Abortion should be legal but discouraged. (resolved_corefs: False)",
+            "Today I will be arguing that abortion should be legal. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Therefore, abortion should be legal. (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "My case is against \"abortion, \"abortion should not be illegal, \"abortion should be legal. (originated_from: Should abortion be legal?, resolved_corefs: True)",
+            "Therefore, abortion should not be legal. (originated_from: Should abortion be legal?, resolved_corefs: False)",
+            "- What is that?! (originated_from: What is abortion?, resolved_corefs: False)",
+            "What is that? (originated_from: What is abortion?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should students have to wear school uniforms?",
+      "query_expansion": [
+        "Should students have to wear school uniforms?",
+        "What are the benefits of school uniforms?",
+        "What are the drawbacks of school uniforms?",
+        "What is the history of school uniforms?",
+        "What are the alternatives to school uniforms?",
+        "How do school uniforms affect students' academic performance?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "I think students should wear school uniforms. (resolved_corefs: False)",
+            "Students should NOT wear school uniforms Students have a right to be an individual. (resolved_corefs: False)",
+            "Should the be school uniforms? (resolved_corefs: False)",
+            "I do not think that schools should require schools students to wear a school uniform. (resolved_corefs: True)",
+            "I don't think schools should require students to wear a uniform. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "I think students should wear school uniforms. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "Students should NOT wear school uniforms Students have a right to be an individual. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "Should the be school uniforms? (originated_from: What are the benefits of school uniforms?, resolved_corefs: False)",
+            "I do not think that schools should require schools students to wear a school uniform. (originated_from: Should students have to wear school uniforms?, resolved_corefs: True)",
+            "I don't think schools should require students to wear a uniform. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "I think students should wear school uniforms. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "Should the be school uniforms? (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "Does she school allow uniforms? (originated_from: Should students have to wear school uniforms?, resolved_corefs: True)",
+            "Students should NOT wear school uniforms Students have a right to be an individual. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "I do not think that schools should require schools students to wear a school uniform. (originated_from: Should students have to wear school uniforms?, resolved_corefs: True)"
+          ],
+          "expanded": [
+            "Should the be school uniforms? (originated_from: What are the benefits of school uniforms?, resolved_corefs: False)",
+            "I think students should wear school uniforms. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "Does she school allow uniforms? (originated_from: Should students have to wear school uniforms?, resolved_corefs: True)",
+            "Uniform has practical benefits when students are outside the school building. (originated_from: What are the benefits of school uniforms?, resolved_corefs: False)",
+            "Students should NOT wear school uniforms Students have a right to be an individual. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "Should the be school uniforms? (resolved_corefs: False)",
+            "I think students should wear school uniforms. (resolved_corefs: False)",
+            "I don't think schools should require students to wear a uniform. (resolved_corefs: False)",
+            "no i think students should not be forced to wear uniforms. (resolved_corefs: False)",
+            "I feel school uniforms are a must for teachers and students. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Should the be school uniforms? (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "I think students should wear school uniforms. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "I don't think schools should require students to wear a uniform. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "[11] [12] School uniforms have helped improve schools, as emphasized by one study that finds that \u201cvarious benefits to wearing uniforms were reported, including decreases in discipline, gang involvement and bullying; and increases in safety, eases of going to school, confidence and self-esteem. (originated_from: What are the benefits of school uniforms?, resolved_corefs: False)",
+            "no i think students should not be forced to wear uniforms. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "I think students should wear school uniforms. (resolved_corefs: False)",
+            "Students should NOT wear school uniforms Students have a right to be an individual. (resolved_corefs: False)",
+            "Should the be school uniforms? (resolved_corefs: False)",
+            "no i think students should not be forced to wear uniforms. (resolved_corefs: False)",
+            "For schools that do not have school uniforms, I believe that students should not be punished if students accidentally dirty the clothes which students wear. (resolved_corefs: True)"
+          ],
+          "expanded": [
+            "I think students should wear school uniforms. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "Students should NOT wear school uniforms Students have a right to be an individual. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "Should the be school uniforms? (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "no i think students should not be forced to wear uniforms. (originated_from: Should students have to wear school uniforms?, resolved_corefs: False)",
+            "While there are many students who disagree with the concept of uniforms being compulsory, Students tend to accept that uniforms have benefits and uniforms have benefits are certainly not \"fearful\" of it. (originated_from: What are the benefits of school uniforms?, resolved_corefs: True)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should any vaccines be required for children?",
+      "query_expansion": [
+        "Should any vaccines be required for children?",
+        "What vaccines are recommended for children?",
+        "What are the risks and benefits of vaccinating children?",
+        "Should parents have the right to refuse vaccinations for their children?",
+        "What is the impact of not vaccinating children?",
+        "What is the history of mandatory vaccination laws for children?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "Children should not be required to receive the DPT (diphtheria, pertussis, tetanus) vaccine. (resolved_corefs: False)",
+            "Children should not receive the DPT vaccine. (resolved_corefs: True)",
+            "Vaccinate their children. (resolved_corefs: True)",
+            "I think that if kids are required to get vaccines that there shouldn't be religious exemptions. (resolved_corefs: False)",
+            "Argument I: \"I think that if kids are required to get vaccines that there shouldn't be religious exemptions.\"1. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Parents have a right to circumcise their children. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: False)",
+            "31% of parents believe 31% of parents should have the right to refuse mandated school entry vaccinations for 31% of parents children, according to a 2010 survey by the University of Michigan. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "Governments should not have the right to intervene in the health decisions parents make for parents children. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "1904 cartoon opposing the mandatory vaccination law in Brazil. (originated_from: What is the history of mandatory vaccination laws for children?, resolved_corefs: False)",
+            "Vaccinate their children. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "Children should not be required to receive the DPT (diphtheria, pertussis, tetanus) vaccine. (originated_from: Should any vaccines be required for children?, resolved_corefs: False)",
+            "I think that if kids are required to get vaccines that there shouldn't be religious exemptions. (originated_from: Should any vaccines be required for children?, resolved_corefs: False)",
+            "Argument I: \"I think that if kids are required to get vaccines that there shouldn't be religious exemptions.\"1. (originated_from: Should any vaccines be required for children?, resolved_corefs: False)",
+            "The fact that vaccines cause autism is a fallacy and should not be treated as fact. (originated_from: Should any vaccines be required for children?, resolved_corefs: False)",
+            "(You will argue that school uniforms should be required) Round one is for acceptance only.My opening statement: School uniforms shouldn't be required because they create a sense of anti-individuality, going against the Freedom of Expression, being forced to choose clothing can help prepare children for the adult world, and requiring school uniforms causes rebellion among the general student population. (originated_from: Should any vaccines be required for children?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "31% of parents believe 31% of parents should have the right to refuse mandated school entry vaccinations for 31% of parents children, according to a 2010 survey by the University of Michigan. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "Governments should not have the right to intervene in the health decisions parents make for parents children. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "Therefore, if parents choose not to immunize parents children, doctors will often have parents choose not to immunize their children sign a statement that parents choose not to immunize their children have discussed the risks and benefits of the vaccines and parents choose not to immunize their children understand that parents choose not to immunize their children are taking a risk in refusing vaccines for parents choose not to immunize their children children. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "Parents have a right to circumcise their children. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: False)",
+            "\"All 50 states require vaccinations for children entering public schools even though no mandatory Federal vaccination laws exist.\" (originated_from: What is the history of mandatory vaccination laws for children?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "Do you think childhood vaccinations should become mandatory? (resolved_corefs: False)",
+            "should kids at school have to be vaccinated. (resolved_corefs: False)",
+            "Children especially need to get vaccinated. (resolved_corefs: False)",
+            "Here are some things to consider before making a decision not to immunize a child: Vaccines are considered the best way to protect your child against diseases that could cause liver damage, liver cancer, suffocation, meningitis, pneumonia, paralysis, lockjaw, seizures, brain damage, deafness, blindness, mental retardation, learning disabilities, birth defects, encephalitis or death. (resolved_corefs: False)",
+            "However, no vaccines means a child can obtain these numerous diseases: Anthrax Chickenpox Diphtheria Hepatitis A and B Hib HPV Japanese Encephalitis Lyme Disease Measles Meningococcal Mumps Pertussis Pneumococcal Polio Rabies And many, many more [3]! (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Do you think childhood vaccinations should become mandatory? (originated_from: Should any vaccines be required for children?, resolved_corefs: False)",
+            "31% of parents believe 31% of parents should have the right to refuse mandated school entry vaccinations for 31% of parents children, according to a 2010 survey by the University of Michigan. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "should kids at school have to be vaccinated. (originated_from: Should any vaccines be required for children?, resolved_corefs: False)",
+            "Forcing such parents to vaccinate such parents children would violate the 1st Amendment which guarantees citizens the right to the free exercise of citizens religion. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "Their will obtain diseases, spread diseases onto other children who think Their're safe without the vaccination, and then spread diseases to the kids who were going to get a vaccination. (originated_from: What are the risks and benefits of vaccinating children?, resolved_corefs: True)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "Children should not be required to receive the DPT (diphtheria, pertussis, tetanus) vaccine. (resolved_corefs: False)",
+            "I think that if kids are required to get vaccines that there shouldn't be religious exemptions. (resolved_corefs: False)",
+            "Argument I: \"I think that if kids are required to get vaccines that there shouldn't be religious exemptions.\"1. (resolved_corefs: False)",
+            "vaccination should be mandatory I will be pro, you will be con. (resolved_corefs: False)",
+            "My opponent earlier agreed that the resolution should refer to what is \"required by public school.\" (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Parents have a right to circumcise their children. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: False)",
+            "Governments should not have the right to intervene in the health decisions parents make for parents children. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "31% of parents believe 31% of parents should have the right to refuse mandated school entry vaccinations for 31% of parents children, according to a 2010 survey by the University of Michigan. (originated_from: Should parents have the right to refuse vaccinations for their children?, resolved_corefs: True)",
+            "Vaccines are studied extensively for Vaccines safety before being recommended for children and continue to be monitored after recommendation (see How Are Vaccines Made?). (originated_from: What vaccines are recommended for children?, resolved_corefs: True)",
+            "Children should not be required to receive the DPT (diphtheria, pertussis, tetanus) vaccine. (originated_from: Should any vaccines be required for children?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should performance-enhancing drugs be accepted in sports?",
+      "query_expansion": [
+        "Should performance-enhancing drugs be accepted in sports?",
+        "What are the risks and benefits of using performance-enhancing drugs in sports?",
+        "What are some alternatives to using performance-enhancing drugs in sports?",
+        "What are the ethical implications of using performance-enhancing drugs in sports?",
+        "How do performance-enhancing drugs affect the integrity of sports?",
+        "What are the consequences for athletes who are caught using performance-enhancing drugs?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports.\" (resolved_corefs: False)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports. \" (resolved_corefs: False)",
+            "Performance-enhancing Drugs: Know the Risks. (resolved_corefs: False)",
+            "They show that using Performance-enhancing drugs is unsafe. (resolved_corefs: True)",
+            "They show that using Performance-enhancing drugs is unsafe.\" (resolved_corefs: True)"
+          ],
+          "expanded": [
+            "using performance-enhancing drugs is not worth the risk at all. (originated_from: What are the risks and benefits of using performance-enhancing drugs in sports?, resolved_corefs: False)",
+            "Performance-enhancing Drugs: Know the Risks. (originated_from: What are the risks and benefits of using performance-enhancing drugs in sports?, resolved_corefs: False)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports.\" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "They show that using Performance-enhancing drugs is unsafe. (originated_from: What are some alternatives to using performance-enhancing drugs in sports?, resolved_corefs: True)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports. \" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "No, I'm saying that performance-enhancing drugs should not be allowed because performance-enhancing drugs set a bad example for children. (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: True)",
+            "Why should a different standard be applied to sports? (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "No, I'm saying that performance-enhancing drugs should not be allowed because performance-enhancing drugs set a bad example for children. \" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: True)",
+            "The United States Anti-Doping agency should keep performance-enhancing drugs illegal to keep professional athletes safe. (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports.\" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Today, players normally are caught and suspended when players take other performance-enhancing drugs. (originated_from: What are the consequences for athletes who are caught using performance-enhancing drugs?, resolved_corefs: True)",
+            "No, I'm saying that performance-enhancing drugs should not be allowed because performance-enhancing drugs set a bad example for children. (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: True)",
+            "Why should a different standard be applied to sports? (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "No, I'm saying that performance-enhancing drugs should not be allowed because performance-enhancing drugs set a bad example for children. \" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: True)",
+            "using performance-enhancing drugs is not worth the risk at all. (originated_from: What are the risks and benefits of using performance-enhancing drugs in sports?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports.\" (resolved_corefs: False)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports. \" (resolved_corefs: False)",
+            "They do apply to the resolution, \"Performance-enhancing drugs should [not] be allowed in professional sports\". (resolved_corefs: False)",
+            "They do apply to the resolution, \"Performance-enhancing drugs should [not] be allowed in professional sports\". (resolved_corefs: False)",
+            "Also, it benefits the sports economically to allow performance-enhancing drugs. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports.\" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports. \" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "Also, it benefits the sports economically to allow performance-enhancing drugs. (originated_from: What are the risks and benefits of using performance-enhancing drugs in sports?, resolved_corefs: False)",
+            "They do apply to the resolution, \"Performance-enhancing drugs should [not] be allowed in professional sports\". (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "This shows that Performance Enhancing Drugs can raise the level of sports, which can make sports even more of a spectacle. (originated_from: How do performance-enhancing drugs affect the integrity of sports?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports. \" (resolved_corefs: False)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports.\" (resolved_corefs: False)",
+            "They do apply to the resolution, \"Performance-enhancing drugs should [not] be allowed in professional sports\". (resolved_corefs: False)",
+            "They do apply to the resolution, \"Performance-enhancing drugs should [not] be allowed in professional sports\". (resolved_corefs: False)",
+            "No, I'm saying that performance-enhancing drugs should not be allowed because performance-enhancing drugs set a bad example for children. (resolved_corefs: True)"
+          ],
+          "expanded": [
+            "Performance-enhancing Drugs: Know the Risks. (originated_from: What are the risks and benefits of using performance-enhancing drugs in sports?, resolved_corefs: False)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports.\" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "Uh, no, it's whether \"Performance-enhancing drugs should be ALLOWED in professional sports. \" (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)",
+            "Also, it benefits the sports economically to allow performance-enhancing drugs. (originated_from: What are the risks and benefits of using performance-enhancing drugs in sports?, resolved_corefs: False)",
+            "They do apply to the resolution, \"Performance-enhancing drugs should [not] be allowed in professional sports\". (originated_from: Should performance-enhancing drugs be accepted in sports?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Should birth control pills be available over the counter?",
+      "query_expansion": [
+        "Should birth control pills be available over the counter?",
+        "What are the benefits and risks of making birth control pills available over the counter?",
+        "What are some alternative forms of birth control that could be available over the counter?",
+        "What is the current status of access to birth control pills?",
+        "What are the arguments for and against making birth control pills available over the counter?",
+        "How would making birth control pills available over the counter impact healthcare access and affordability?"
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            "I believe that birth control pills should be given out in schools because we don't want children!!! (resolved_corefs: False)",
+            "Teenagers shouldn't be on birth control. (resolved_corefs: False)",
+            "Birth control - no! (resolved_corefs: False)",
+            "Now take these birth control pills, because we think the worst for you.\" (resolved_corefs: False)",
+            "Children will take birth control pills, the boys will give Children to Children girlfriends. (resolved_corefs: True)"
+          ],
+          "expanded": [
+            "There is an access issue here to birth control. (originated_from: What is the current status of access to birth control pills?, resolved_corefs: False)",
+            "That is what birth control policies do. (originated_from: What is the current status of access to birth control pills?, resolved_corefs: False)",
+            "I believe that birth control pills should be given out in schools because we don't want children!!! (originated_from: Should birth control pills be available over the counter?, resolved_corefs: False)",
+            "Even a preteen knows that she should be on some sort of birth control if they are having sex. (originated_from: What are some alternative forms of birth control that could be available over the counter?, resolved_corefs: False)",
+            "Teenagers shouldn't be on birth control. (originated_from: Should birth control pills be available over the counter?, resolved_corefs: False)"
+          ]
+        },
+        "bm25": {
+          "normal": [
+            "I believe that birth control pills should be given out in schools because we don't want children!!! (originated_from: Should birth control pills be available over the counter?, resolved_corefs: False)",
+            "I think that birth control should be for the adults because the adults will know when to use birth control and teenagers will use birth control maybe even daily. (originated_from: Should birth control pills be available over the counter?, resolved_corefs: True)",
+            "I believe that birth control should be allowed to be obtained without parental consent. (originated_from: Should birth control pills be available over the counter?, resolved_corefs: False)",
+            "Soon parents'll be debating over if the legal limit of alcohol should be 16. (originated_from: Should birth control pills be available over the counter?, resolved_corefs: True)",
+            "If a woman needs birth control should she take man made pills instead of using cannabis to protect against unwanted pregnancy? (originated_from: Should birth control pills be available over the counter?, resolved_corefs: False)"
+          ],
+          "expanded": [
+            "That is what birth control policies do. (originated_from: What is the current status of access to birth control pills?, resolved_corefs: False)",
+            "Even a preteen knows that she should be on some sort of birth control if they are having sex. (originated_from: What are some alternative forms of birth control that could be available over the counter?, resolved_corefs: False)",
+            "I believe that birth control pills should be given out in schools because we don't want children!!! (originated_from: Should birth control pills be available over the counter?, resolved_corefs: False)",
+            "Although some forms of birth control can be helpful in preventing the spread of STDs, the primary function of contraception is to prevent pregnancy and associated health effects. (originated_from: What are some alternative forms of birth control that could be available over the counter?, resolved_corefs: False)",
+            "There is an access issue here to birth control. (originated_from: What is the current status of access to birth control pills?, resolved_corefs: False)"
+          ]
+        },
+        "bert": {
+          "normal": [
+            "FDA-approved methods of contraceptives are \"hormonal (e.g., birth control pills), barrier (i.e., diaphragms), emergency contraceptives (i.e., \"morning after\" pills) and select over-the-counter (OTC) contraceptives. (resolved_corefs: False)",
+            "Objection 2: Is mandatory birth control really the best option ? (resolved_corefs: False)",
+            "However, if it is indeed the case that using birth control pills means there will later on be a higher chance of fetus mortality, then I definitely would be against it. (resolved_corefs: False)",
+            "If a woman needs birth control should she take man made pills instead of using cannabis to protect against unwanted pregnancy? (resolved_corefs: False)",
+            "Additionally, only a specific list of FDA-approved, female-based contraceptives may be covered. (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "Objection 2: Is mandatory birth control really the best option ? (originated_from: What are the arguments for and against making birth control pills available over the counter?, resolved_corefs: False)",
+            "FDA-approved methods of contraceptives are \"hormonal (e.g., birth control pills), barrier (i.e., diaphragms), emergency contraceptives (i.e., \"morning after\" pills) and select over-the-counter (OTC) contraceptives. (originated_from: What are some alternative forms of birth control that could be available over the counter?, resolved_corefs: False)",
+            "Use of contraceptives can actually be a health detrimentAccording to the World Health Organization, \"the birth control pill increases a woman's risk for cancers of the breast, cervix and liver, but the breast decreases risk of endometrial and ovarian cancers. (originated_from: What are the benefits and risks of making birth control pills available over the counter?, resolved_corefs: True)",
+            "Some argue that teaching people how to use contraceptives will alleviate the problem. (originated_from: What are the arguments for and against making birth control pills available over the counter?, resolved_corefs: False)",
+            "Health MaintenanceThis will probably be a greater point of contention in this debate as there are direct health benefits to the use of some contraceptives for specific individuals. (originated_from: What are the arguments for and against making birth control pills available over the counter?, resolved_corefs: False)"
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            "FDA-approved methods of contraceptives are \"hormonal (e.g., birth control pills), barrier (i.e., diaphragms), emergency contraceptives (i.e., \"morning after\" pills) and select over-the-counter (OTC) contraceptives. (resolved_corefs: False)",
+            "I believe that birth control pills should be given out in schools because we don't want children!!! (resolved_corefs: False)",
+            "Birth control - no! (resolved_corefs: False)",
+            "I think that birth control should be for the adults because the adults will know when to use birth control and teenagers will use birth control maybe even daily. (resolved_corefs: True)",
+            "What's available? (resolved_corefs: False)"
+          ],
+          "expanded": [
+            "What's your status? (originated_from: What is the current status of access to birth control pills?, resolved_corefs: False)",
+            "There is an access issue here to birth control. (originated_from: What is the current status of access to birth control pills?, resolved_corefs: False)",
+            "FDA-approved methods of contraceptives are \"hormonal (e.g., birth control pills), barrier (i.e., diaphragms), emergency contraceptives (i.e., \"morning after\" pills) and select over-the-counter (OTC) contraceptives. (originated_from: Should birth control pills be available over the counter?, resolved_corefs: False)",
+            "I believe that birth control pills should be given out in schools because we don't want children!!! (originated_from: Should birth control pills be available over the counter?, resolved_corefs: False)",
+            "What's available? (originated_from: What are the benefits and risks of making birth control pills available over the counter?, resolved_corefs: False)"
+          ]
+        },
+        "chatgpt": {
+          "normal": "",
+          "expanded": ""
+        }
+      }
+    },
+    {
+      "query": "Can alternative energy effectively replace fossil fuels?",
+      "query_expansion": [
+        "Can alternative energy effectively replace fossil fuels?",
+        "What are the benefits and drawbacks of alternative energy sources compared to fossil fuels?",
+        "What are some examples of successful implementation of alternative energy sources?",
+        "What are the challenges facing the widespread adoption of alternative energy sources?",
+        "How can governments and industries work to promote the transition to alternative energy sources?",
+        "What is the potential impact of a shift towards alternative energy sources on the economy and job market?"
+      ]
+      ,
+      "results": {
+        "jaccard": {
+          "normal": [
+            
+          ],
+          "expanded": [
+            
+          ]
+        },
+        "bm25": {
+          "normal": [
+          
+          ],
+          "expanded": [
+            
+          ]
+        },
+        "bert": {
+          "normal": [
+            
+          ],
+          "expanded": [
+
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            
+          ],
+          "expanded": [
+          
+          ]
+        },
+        "chatgpt": {
+          "normal": [
+
+          ],
+          "expanded": [
+
+          ]
+        }
+      }
+    },
+    {
+      "query": "",
+      "query_expansion": [
+  
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            
+          ],
+          "expanded": [
+            
+          ]
+        },
+        "bm25": {
+          "normal": [
+           
+          ],
+          "expanded": [
+            
+          ]
+        },
+        "bert": {
+          "normal": [
+            
+          ],
+          "expanded": [
+  
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            
+          ],
+          "expanded": [
+           
+          ]
+        },
+        "chatgpt": {
+          "normal": [
+  
+          ],
+          "expanded": [
+  
+          ]
+        }
+      }
+    },
+    {
+      "query": "",
+      "query_expansion": [
+
+      ],
+      "results": {
+        "jaccard": {
+          "normal": [
+            
+          ],
+          "expanded": [
+            
+          ]
+        },
+        "bm25": {
+          "normal": [
+          
+          ],
+          "expanded": [
+            
+          ]
+        },
+        "bert": {
+          "normal": [
+            
+          ],
+          "expanded": [
+
+          ]
+        },
+        "tfidf": {
+          "normal": [
+            
+          ],
+          "expanded": [
+          
+          ]
+        },
+        "chatgpt": {
+          "normal": [
+
+          ],
+          "expanded": [
+
+          ]
+        }
+        }
+    }
+  ]
+}

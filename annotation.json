@@ -1,0 +1,245 @@
+{
+  "annotation": [
+    {
+      "query": "Should teachers get tenure?",
+      "expansion": [
+        "Should teachers get tenure?",
+        "What are the benefits of teacher tenure?",
+        "What are the drawbacks of teacher tenure?",
+        "What are the alternatives to teacher tenure?",
+        "How does teacher tenure affect student learning?",
+        "What is the process for a teacher to obtain tenure?"
+      ],
+      "jaccard": {
+        "normal": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ],
+        "expanded": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ]
+      },
+      "bm25": {
+        "normal": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ],
+        "expanded": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ]
+      },
+      "bert": {
+        "normal": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ],
+        "expanded": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ]
+      },
+      "tfidf": {
+        "normal": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ],
+        "expanded": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ]
+      },
+      "chatgpt": {
+        "normal": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ],
+        "expanded": [
+          {
+            "id": 1,
+            "score": 1
+          },
+          {
+            "id": 2,
+            "score": 1
+          },
+          {
+            "id": 3,
+            "score": 1
+          },
+          {
+            "id": 4,
+            "score": 1
+          },
+          {
+            "id": 5,
+            "score": 1
+          }
+        ]
+      }
+    }
+  ]
+}

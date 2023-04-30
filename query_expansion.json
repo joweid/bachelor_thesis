@@ -1,0 +1,364 @@
+{
+  "query_expansion": [
+    {
+      "id": 1,
+      "query": "Should teachers get tenure?",
+      "expansion": [
+        "Should teachers get tenure?",
+        "What are the benefits of teacher tenure?",
+        "What are the drawbacks of teacher tenure?",
+        "What are the alternatives to teacher tenure?",
+        "How does teacher tenure affect student learning?",
+        "What is the process for a teacher to obtain tenure?"
+      ]
+    },
+    {
+      "id": 2,
+      "query": "Is vaping with e-cigarettes safe?",
+      "expansion": [
+        "Is vaping with e-cigarettes safe?",
+        "What are the health risks of vaping?",
+        "Is vaping less harmful than smoking?",
+        "What chemicals are in e-cigarette vapor?",
+        "Can vaping lead to addiction?",
+        "What is the long-term impact of vaping on health?"
+      ]
+    },
+    {
+      "id": 3,
+      "query": "Should insider trading be allowed?",
+      "expansion": [
+        "Should insider trading be allowed?",
+        "What is insider trading?",
+        "What are the consequences of insider trading?",
+        "What is the current legal status of insider trading?",
+        "Is insider trading ever ethical?",
+        "What are some arguments for and against allowing insider trading?"
+      ]
+    },
+    {
+      "id": 4,
+      "query": "Should corporal punishment be used in schools?",
+      "expansion": [
+        "Should corporal punishment be used in schools?",
+        "What is corporal punishment?",
+        "What are the effects of corporal punishment on children?",
+        "What are the alternatives to corporal punishment in schools?",
+        "Is corporal punishment legal in schools?",
+        "What are the cultural and historical perspectives on corporal punishment?"
+      ]
+    },
+    {
+      "id": 5,
+      "query": "Should social security be privatized?",
+      "expansion": [
+        "Should social security be privatized?",
+        "What is social security?",
+        "What are the pros and cons of privatizing social security?",
+        "What are the potential consequences of privatizing social security?",
+        "What are the alternatives to privatizing social security?",
+        "How does social security work in other countries?"
+      ]
+    },
+    {
+      "id": 6,
+      "query": "Is a college education worth it?",
+      "expansion": [
+        "Is a college education worth it?",
+        "What are the benefits of a college education?",
+        "What are the drawbacks of a college education?",
+        "What is the return on investment of a college education?",
+        "What are the alternatives to a traditional college education?",
+        "How does the value of a college education vary by field of study?"
+      ]
+    },
+    {
+      "id": 7,
+      "query": "Should felons who have completed their sentence be allowed to vote?",
+      "expansion": [
+        "Should felons who have completed their sentence be allowed to vote?",
+        "What are the voting rights of felons in different states?",
+        "What is the history of felon disenfranchisement in the United States?",
+        "What are the arguments for and against restoring voting rights to felons?",
+        "What is the impact of felony disenfranchisement on democracy?",
+        "What are the alternatives to restoring voting rights to felons who have completed their sentence?"
+      ]
+    },
+    {
+      "id": 8,
+      "query": "Should abortion be legal?",
+      "expansion": [
+        "Should abortion be legal?",
+        "What is abortion?",
+        "What are the different types of abortion procedures?",
+        "What are the arguments for and against legalizing abortion?",
+        "What is the current legal status of abortion?",
+        "What are the cultural and religious perspectives on abortion?"
+      ]
+    },
+    {
+      "id": 9,
+      "query": "Should students have to wear school uniforms?",
+      "expansion": [
+        "Should students have to wear school uniforms?",
+        "What are the benefits of school uniforms?",
+        "What are the drawbacks of school uniforms?",
+        "What is the history of school uniforms?",
+        "What are the alternatives to school uniforms?",
+        "How do school uniforms affect students' academic performance?"
+      ]
+    },
+    {
+      "id": 10,
+      "query": "Should any vaccines be required for children?",
+      "expansion": [
+        "Should any vaccines be required for children?",
+        "What vaccines are recommended for children?",
+        "What are the risks and benefits of vaccinating children?",
+        "Should parents have the right to refuse vaccinations for their children?",
+        "What is the impact of not vaccinating children?",
+        "What is the history of mandatory vaccination laws for children?"
+      ]
+    },
+    {
+      "id": 11,
+      "query": "Should performance-enhancing drugs be accepted in sports?",
+      "expansion": [
+        "Should performance-enhancing drugs be accepted in sports?",
+        "What are the risks and benefits of using performance-enhancing drugs in sports?",
+        "What are some alternatives to using performance-enhancing drugs in sports?",
+        "What are the ethical implications of using performance-enhancing drugs in sports?",
+        "How do performance-enhancing drugs affect the integrity of sports?",
+        "What are the consequences for athletes who are caught using performance-enhancing drugs?"
+      ]
+    },
+    {
+      "id": 12,
+      "query": "Should birth control pills be available over the counter?",
+      "expansion": [
+        "Should birth control pills be available over the counter?",
+        "What are the benefits and risks of making birth control pills available over the counter?",
+        "What are some alternative forms of birth control that could be available over the counter?",
+        "What is the current status of access to birth control pills?",
+        "What are the arguments for and against making birth control pills available over the counter?",
+        "How would making birth control pills available over the counter impact healthcare access and affordability?"
+      ]
+    },
+    {
+      "id": 13,
+      "query": "Can alternative energy effectively replace fossil fuels?",
+      "expansion": [
+        "Can alternative energy effectively replace fossil fuels?",
+        "What are the benefits and drawbacks of alternative energy sources compared to fossil fuels?",
+        "What are some examples of successful implementation of alternative energy sources?",
+        "What are the challenges facing the widespread adoption of alternative energy sources?",
+        "How can governments and industries work to promote the transition to alternative energy sources?",
+        "What is the potential impact of a shift towards alternative energy sources on the economy and job market?"
+      ]
+    },
+    {
+      "id": 14,
+      "query": "Is sexual orientation determined at birth?",
+      "expansion": [
+        "Is sexual orientation determined at birth?",
+        "What factors contribute to the development of sexual orientation?",
+        "Can sexual orientation change over time?",
+        "What impact do societal and cultural factors have on the development and expression of sexual orientation?",
+        "What are the implications of the belief that sexual orientation is determined at birth?",
+        "What are some of the current scientific theories about the development of sexual orientation?"
+      ]
+    },
+    {
+      "id": 15,
+      "query": "Should animals be used for scientific or commercial testing?",
+      "expansion": [
+        "Should animals be used for scientific or commercial testing?",
+        "What are the benefits and drawbacks of using animals for scientific or commercial testing?",
+        "What are some alternatives to using animals for scientific or commercial testing?",
+        "What ethical considerations should be taken into account when using animals for scientific or commercial testing?",
+        "What regulations and laws govern the use of animals in scientific or commercial testing?",
+        "What is the impact of animal testing on public opinion and consumer behavior?"
+      ]
+    },
+    {
+      "id": 16,
+      "query": "Should prescription drugs be advertised directly to consumers?",
+      "expansion": [
+        "Should prescription drugs be advertised directly to consumers?",
+        "What are the benefits and drawbacks of direct-to-consumer advertising of prescription drugs?",
+        "How does direct-to-consumer advertising impact healthcare costs?",
+        "What are the regulations and laws governing direct-to-consumer advertising of prescription drugs?",
+        "What is the role of healthcare providers in informing patients about prescription drugs?",
+        "What is the impact of direct-to-consumer advertising on patient behavior and attitudes towards prescription drugs?"
+      ]
+    },
+    {
+      "id": 17,
+      "query": "Should recreational marijuana be legal?",
+      "expansion": [
+        "Should recreational marijuana be legal?",
+        "What are the potential benefits and drawbacks of legalizing recreational marijuana?",
+        "How does legalizing recreational marijuana impact public health and safety?",
+        "What are the current laws and regulations regarding recreational marijuana?",
+        "What are some alternative approaches to addressing issues related to marijuana use?",
+        "What is the impact of recreational marijuana legalization on the economy and criminal justice system?"
+      ]
+    },
+    {
+      "id": 18,
+      "query": "Should churches remain tax-exempt?",
+      "expansion": [
+        "Should churches remain tax-exempt?",
+        "What is the history and rationale behind tax-exempt status for churches?",
+        "What are the arguments for and against tax-exempt status for churches?",
+        "What is the impact of tax-exempt status for churches on government revenue and the economy?",
+        "What are the regulations and laws governing tax-exempt status for churches?",
+        "What is the impact of tax-exempt status for churches on the separation of church and state?"
+      ]
+    },
+    {
+      "id": 19,
+      "query": "Should gay marriage be legal?",
+      "expansion": [
+        "Should gay marriage be legal?",
+        "What are the arguments for and against legalizing gay marriage?",
+        "What is the history and current status of gay marriage in different countries and cultures?",
+        "What is the impact of legalizing gay marriage on society, families, and children?",
+        "What are the legal and constitutional issues related to gay marriage?",
+        "What is the impact of public opinion and activism on the legalization of gay marriage?"
+      ]
+    },
+    {
+      "id": 20,
+      "query": "Is drinking milk healthy for humans?",
+      "expansion": [
+        "Is drinking milk healthy for humans?",
+        "What are the benefits of drinking milk?",
+        "Does milk consumption have any negative health effects?",
+        "What are the alternatives to drinking milk?",
+        "Is it necessary to drink milk for strong bones?",
+        "Can lactose intolerant people consume milk?"
+      ]
+    },
+    {
+      "id": 21,
+      "query": "Is human activity primarily responsible for global climate change?",
+      "expansion": [
+        "Is human activity primarily responsible for global climate change?",
+        "What is the evidence for human-caused climate change?",
+        "What role do natural factors play in global climate change?",
+        "How do scientists study past climate changes?",
+        "What are the potential consequences of global climate change?",
+        "What can be done to mitigate the effects of climate change?"
+      ]
+    },
+    {
+      "id": 22,
+      "query": "Is a two-state solution an acceptable solution to the Israeli-Palestinian conflict?",
+      "expansion": [
+        "Is a two-state solution an acceptable solution to the Israeli-Palestinian conflict?",
+        "What are the arguments for and against a two-state solution?",
+        "What are the prospects for a two-state solution in the current political climate?",
+        "What are the historical roots of the Israeli-Palestinian conflict?",
+        "What is the role of international law in resolving the Israeli-Palestinian conflict?",
+        "What are some alternative solutions to the Israeli-Palestinian conflict?"
+      ]
+    },
+    {
+      "id": 23,
+      "query": "Should euthanasia or physician-assisted suicide be legal?",
+      "expansion": [
+        "Should euthanasia or physician-assisted suicide be legal?",
+        "What are the ethical considerations surrounding euthanasia and physician-assisted suicide?",
+        "What is the difference between active and passive euthanasia?",
+        "What are the laws regarding euthanasia and physician-assisted suicide in different countries?",
+        "What are the arguments for and against legalizing euthanasia and physician-assisted suicide?",
+        "What are some alternatives to euthanasia and physician-assisted suicide for end-of-life care?"
+      ]
+    },
+    {
+      "id": 24,
+      "query": "Does lowering the federal corporate income tax rate create jobs?",
+      "expansion": [
+        "Does lowering the federal corporate income tax rate create jobs?",
+        "What are the arguments for and against reducing the corporate income tax rate?",
+        "How do businesses respond to changes in the corporate income tax rate?",
+        "What is the historical relationship between the corporate income tax rate and job creation?",
+        "What are some other factors that affect job creation?",
+        "What are some alternative ways to encourage job growth?"
+      ]
+    },
+    {
+      "id": 25,
+      "query": "Should everyone get a universal basic income?",
+      "expansion": [
+        "Should education be free?",
+        "Is universal basic income beneficial for society as a whole?",
+        "What are the advantages and disadvantages of implementing a universal basic income?",
+        "Are there any successful examples of universal basic income programs around the world?",
+        "What are the potential long-term effects of a universal basic income policy?",
+        "What are the arguments for and against providing a universal basic income to all citizens?"
+      ]
+    },
+    {
+      "id": 26,
+      "query": "Do standardized tests improve education?",
+      "expansion": [
+        "Do standardized tests improve education?",
+        "What are the benefits and drawbacks of standardized testing?",
+        "What is the history of standardized testing in education?",
+        "How do different countries use standardized tests?",
+        "What are some alternative ways to evaluate student learning?",
+        "What is the impact of standardized testing on teaching and curriculum?"
+      ]
+    },
+    {
+      "id": 27,
+      "query": "Should more gun control laws be enacted?",
+      "expansion": [
+        "Should more gun control laws be enacted?",
+        "What are the arguments for and against gun control laws?",
+        "What is the impact of gun control laws on crime rates?",
+        "What are the current gun control laws in different countries?",
+        "What are some alternative solutions to gun violence?",
+        "What is the history of gun control legislation in the United States?"
+      ]
+    },
+    {
+      "id": 28,
+      "query": "Should prostitution be legal?",
+      "expansion": [
+        "Should prostitution be legal?",
+        "What are the arguments for and against legalizing prostitution?",
+        "What is the current legal status of prostitution in different countries?",
+        "What are the health and safety risks associated with prostitution?",
+        "What are some alternative solutions to addressing prostitution?",
+        "What is the history of prostitution and its regulation?"
+      ]
+    },
+    {
+      "id": 29,
+      "query": "Should the government allow illegal immigrants to become citizens?",
+      "expansion": [
+        "Should the government allow illegal immigrants to become citizens?",
+        "What are the arguments for and against providing a pathway to citizenship for undocumented immigrants?",
+        "What are the economic impacts of allowing undocumented immigrants to become citizens?",
+        "What are the current policies on immigration and citizenship in different countries?",
+        "What are some alternative solutions to the issue of illegal immigration?",
+        "What is the history of immigration policies in the United States?"
+      ]
+    },
+    {
+      "id": 30,
+      "query": "Should adults have the right to carry a concealed handgun?",
+      "expansion": [
+        "Should adults have the right to carry a concealed handgun?",
+        "What are the arguments for and against concealed carry laws?",
+        "What is the history of concealed carry laws in the United States?",
+        "What are the requirements for obtaining a concealed carry permit?",
+        "What are the impacts of concealed carry laws on public safety?",
+        "What are some alternative solutions to addressing gun violence?"
+      ]
+    }
+  ]
+}
